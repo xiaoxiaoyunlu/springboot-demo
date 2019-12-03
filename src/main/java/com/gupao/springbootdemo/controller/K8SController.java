@@ -17,7 +17,7 @@ public class K8SController {
             InetAddress address = InetAddress.getLocalHost();
             result="hostname: "+address.getHostName()+"hostaddress: "+address.getHostAddress();
             System.out.println("hostname:"+address.getHostName());//主机名
-            System.out.println();//主机别名
+            System.out.println("1111111111111");//主机别名
             System.out.println("test successfully");//
         }catch(Exception e){
             e.printStackTrace();
