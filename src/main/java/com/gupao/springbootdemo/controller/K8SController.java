@@ -16,7 +16,7 @@ public class K8SController {
             //用 getLocalHost() 方法创建的InetAddress的对象
             InetAddress address = InetAddress.getLocalHost();
             result="hostname: "+address.getHostName()+"hostaddress: "+address.getHostAddress();
-            System.out.println();//主机名
+            System.out.println("hostname:"+address.getHostName());//主机名
             System.out.println();//主机别名
             System.out.println();//
         }catch(Exception e){
