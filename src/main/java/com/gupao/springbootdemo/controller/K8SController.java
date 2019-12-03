@@ -18,7 +18,7 @@ public class K8SController {
             result="hostname: "+address.getHostName()+"hostaddress: "+address.getHostAddress();
             System.out.println("hostname:"+address.getHostName());//主机名
             System.out.println();//主机别名
-            System.out.println();//
+            System.out.println("test successfully");//
         }catch(Exception e){
             e.printStackTrace();
         }
